@@ -3,6 +3,9 @@ import Intro from './components/intro';
 import './app.scss'
 import Skills from './components/skills';
 import Portfolio from './components/portfolio';
+import Blogs from './components/blogs';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 const App = () => {
   return (
@@ -10,6 +13,9 @@ const App = () => {
       <Intro />
       <Skills />
       <Portfolio />
+      <Blogs />
+      <Contact />
+      <Footer />
     </div>
   )
 }
